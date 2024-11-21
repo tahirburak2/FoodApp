@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Index - Yummy Bootstrap Template</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    @await Html.PartialAsync("_StylesPartial")
+
+</head>
+
+<body class="index-page">
+
+@await Html.PartialAsync("_HeaderPartial")
+
+@RenderBody()
+
+@await Html.PartialAsync("_FooterPartial")
+
+@await Html.PartialAsync("_PreScrollPartial")
+
+@await Html.PartialAsync("_ScriptsPartial")
+
+</body>
+
+</html>
